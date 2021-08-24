@@ -1,0 +1,43 @@
+* {
+    background-color:rgb(161, 160, 160);
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#212529;
+}
+
+.About-Me {
+    padding: 10%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.image {
+    display: block;
+    height: 400px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+   border-radius: 50%;
+}
+
+.experience {
+    padding: 10px 10%;
+    
+}
+
+.card {
+    margin: auto;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}
