@@ -10,18 +10,21 @@ body {
 
 .About-Me {
     padding: 10%;
+    padding-bottom: 10px;
 }
 
 h1 {
+    color: white;
+    background-color:#212529;
+    padding: 20px;
+    margin-left: 0px;
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 20px;
 }
 
 .image {
     display: block;
     height: 400px;
-    width: 200px;
+    width: 245px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
@@ -37,7 +40,35 @@ h1 {
     margin: auto;
 }
 
+h4 {
+    color: white;
+    background-color: #212529;
+    padding: 10px;
+    
+}
+
 a {
     display: flex;
     justify-content: center;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;  
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;  
+}
+
+.navbar-brand{
+    background-color: #212529;
+    border-radius: 50%;
+}
+
+a img {
+    border-radius: 50%;
 }
