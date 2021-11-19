@@ -1,5 +1,5 @@
 * {
-    background-color:rgb(161, 160, 160);
+    background-color: #212529;
     margin: 0;
     padding: 0;
 }
@@ -11,15 +11,16 @@ body {
 .About-Me {
     padding: 10%;
     padding-bottom: 10px;
+    color: white;
 }
 
 h1 {
     color: white;
     background-color:#212529;
-    padding: 20px;
     margin-left: 0px;
     text-align: center;
 }
+
 
 .image {
     display: block;
@@ -33,7 +34,7 @@ h1 {
 
 .experience {
     padding: 10px 10%;
-    
+    color: white;
 }
 
 .card {
@@ -44,7 +45,12 @@ h4 {
     color: white;
     background-color: #212529;
     padding: 10px;
+    text-align: center;
     
+}
+
+.border {
+    border-bottom: white;
 }
 
 a {
@@ -57,6 +63,30 @@ a {
     justify-content: center;  
     margin-left: 100px;
     margin-right: 100px;
+    
+}
+
+.cards {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.card {
+    color: white;
+    
+    }
+
+.card-body {
+    background-color: #212529;
+
+    }
+
+.card-title {
+    background: none;
+    }
+.card-text {
+    background: none;
 }
 
 .navbar {
