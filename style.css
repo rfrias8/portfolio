@@ -12,6 +12,7 @@ body {
     padding: 10%;
     padding-bottom: 10px;
     color: white;
+  
 }
 
 h1 {
@@ -19,8 +20,12 @@ h1 {
     background-color:#212529;
     margin-left: 0px;
     text-align: center;
+    padding-bottom: 20px;
 }
 
+.row {
+    align-items: center;
+}
 
 .image {
     display: block;
@@ -42,15 +47,17 @@ h1 {
 }
 
 h4 {
-    color: white;
-    background-color: #212529;
+    color: 212529;
+    background-color:#627588;
     padding: 10px;
     text-align: center;
+
     
 }
 
 .border {
     border-bottom: white;
+    color:white;
 }
 
 a {
