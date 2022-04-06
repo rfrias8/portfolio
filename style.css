@@ -1,111 +1,85 @@
-* {
-    background-color: #212529;
-    margin: 0;
-    padding: 0;
+*{
+    font-family:'Times New Roman', Times, serif;
+    /* background: rgb(243, 240, 236); */
 }
 
-body {
-    background-color:#212529;
-}
-
-.About-Me {
-    padding: 10%;
-    padding-bottom: 10px;
-    color: white;
-  
-}
-
-h1 {
-    color: white;
-    background-color:#212529;
-    margin-left: 0px;
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.row {
-    align-items: center;
-}
-
-.image {
-    display: block;
-    height: 400px;
-    width: 245px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-   border-radius: 50%;
-}
-
-.experience {
-    padding: 10px 10%;
-    color: white;
-}
-
-.card {
+a{
+    text-decoration: none;
     margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-h4 {
-    color: 212529;
-    background-color:#627588;
+.carousel{
+    margin: auto;
+    max-width: 800px;
+    height: auto;
+    padding-top: 30px;
+}
+
+.divider{
+    border: 2px solid;
     padding: 10px;
     text-align: center;
-
-    
-}
-
-.border {
-    border-bottom: white;
-    color:white;
-}
-
-a {
-    display: flex;
-    justify-content: center;
-}
-
-.projects {
-    display: flex;
-    justify-content: center;  
-    margin-left: 100px;
-    margin-right: 100px;
-    
-}
-
-.cards {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
-}
-
-.card {
+    background-color: black;
+    opacity: 80%;
     color: white;
+    margin-bottom: 40px;
+}
+
+/* footer{
+    align-items: center;
+} */
+
+h1{
+    margin-top: 100px;
+    padding-left: 30%;
+}
+
+h3{
+    margin: 40px 20%;
+}
+
+h4{
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+h5{
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+h6{
+    padding-left: 25px;
+    font-style: italic;
+}
+
+.hero-img{
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+    margin: auto;
+}
+.intro{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding: 120px 50px;
     
-    }
-
-.card-body {
-    background-color: #212529;
-
-    }
-
-.card-title {
-    background: none;
-    }
-.card-text {
-    background: none;
 }
 
-.navbar {
-    display: flex;
-    justify-content: center;  
+.section{
+    padding: 100px 80px 160px 80px;
 }
 
-.navbar-brand{
-    background-color: #212529;
-    border-radius: 50%;
+.social{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px 25% 20px 25%;
 }
 
-a img {
-    border-radius: 50%;
+.social-icon{
+    height: 20px;
 }
+
+
